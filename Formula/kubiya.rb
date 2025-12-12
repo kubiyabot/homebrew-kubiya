@@ -1,9 +1,9 @@
 class Kubiya < Formula
   desc "Command line interface for Kubiya AI platform"
   homepage "https://github.com/kubiyabot/cli"
-  url "https://github.com/kubiyabot/cli/releases/download/v2.6.1/kubiya-cli-darwin-amd64"
-  sha256 "7b7d42311864e041dcb4f9742503c709ef13865dd7754a3c5827d2901098cdde"
-  version "2.6.1"
+  url "https://github.com/kubiyabot/cli/releases/download/v2.6.2/kubiya-cli-darwin-amd64"
+  sha256 "1c2759fecfda0f70f90f37e7d21eb477c49993def45e1db31090a51230b0fa1f"
+  version "2.6.2"
   
   def install
     bin.install "kubiya-cli-darwin-amd64" => "kubiya"
